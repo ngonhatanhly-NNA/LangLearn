@@ -5,7 +5,7 @@ services:
     container_name: lang-mysql
     restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: yourpassword
+      MYSQL_ROOT_PASSWORD: anhnn
       MYSQL_DATABASE: language_db
     ports:
       - "3306:3306"

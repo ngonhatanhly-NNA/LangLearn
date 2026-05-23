@@ -1,4 +1,4 @@
-package com.langlearns.language_learning_backend.model;
+package com.langlearn.language_learning_backend.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -17,7 +17,7 @@ public class User {
     private String email;
 
     @Column(nullable = false)
-    private String passwordHash;  // sau này sẽ hash thực sự
+    private String passwordHash;  
 
     private String displayName;
 }
