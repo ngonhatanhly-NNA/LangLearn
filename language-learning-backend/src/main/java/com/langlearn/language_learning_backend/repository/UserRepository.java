@@ -1,6 +1,6 @@
-package com.yourapp.language_learning_backend.repository;
+package com.langlearn.language_learning_backend.repository;
 
-import com.yourapp.language_learning_backend.model.User;
+import com.langlearn.language_learning_backend.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
